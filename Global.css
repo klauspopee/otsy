@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Plus Jakarta Sans";
+}
+:root {
+    --main-color:#E82933;
+    --transition-duration:.3s;
+    --p-desktop:16px;
+    --h1-desktop:48px;
+    --h2-desktop:36px;
+    --h3-desktop:22px;
+    --h1-mobile: 32px;
+    --h2-mobile: 24px;
+    --h3-mobile: 18px;
+    --p-mobile: 14px;
+    --button-radius:24px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;    
+}
+
+/*Start responsive */
+/* Phone  sm*/
+@media (max-width:320px) {
+    .container {
+        padding: 0 10px;
+    }
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    h1 {
+        font-size: var(--h1-mobile);
+    }
+    h2 {
+        font-size:  var(--h2-mobile);
+    }
+    h3 {
+        font-size: var(--h3-mobile);
+    }
+    p {
+        font-size: var(--p-mobile);
+    }
+}
+
+/* Phone large */
+@media (min-width:321px) {
+    .container {
+        padding: 0 20px;
+    }
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    h1 {
+        font-size: var(--h1-mobile);
+    }
+    h2 {
+        font-size:  var(--h2-mobile);
+    }
+    h3 {
+        font-size: var(--h3-mobile);
+    }
+    p {
+        font-size: var(--p-mobile);
+    }
+}
+
+/* Tablet */
+@media (min-width:769px) {
+    .container {
+        padding: 0 32px;
+    }
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    h1 {
+        font-size: var(--h1-mobile);
+    }
+    h2 {
+        font-size:  var(--h2-mobile);
+    }
+    h3 {
+        font-size: var(--h3-mobile);
+    }
+    p {
+        font-size: var(--p-mobile);
+    }
+}
+
+/* Dektop small */
+@media (min-width:991px) {
+    h1 {
+        font-size: var(--h1-desktop);
+    }
+    h2 {
+        font-size:  var(--h2-desktop);
+    }
+    h3 {
+        font-size: var(--h3-desktop);
+    }
+    p {
+        font-size: var(--p-desktop);
+    }    
+}
+
+/* Desktop large*/
+@media (min-width:1401px) {
+    .container {
+        padding: 0 220px;
+    }
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}
+/*End responsive */
