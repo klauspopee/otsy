@@ -22,9 +22,6 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
-header .container .logo {
-    /* flex-basis: 20%; */
-}
 header .links {
     display: flex;
     justify-content: space-between;
